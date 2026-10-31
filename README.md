@@ -5,6 +5,23 @@
 原理：脚本读取 `config.json` 里配置的仓库 → 抓取最新 Release 的 `.ipa` → 生成标准的 `source.json`。
 手机端把 `source.json` 加为源后，SideStore 刷新时会比对版本号，有新版本就在「更新」页出红点并推送通知，点一下就能升级。
 
+## 当前部署（已上线）
+
+| 项目 | 值 |
+|---|---|
+| 仓库 | https://github.com/littlefhhh/sideload-updates |
+| 订阅地址 | `https://littlefhhh.github.io/sideload-updates/source.json` |
+| 落地页 | https://littlefhhh.github.io/sideload-updates/ |
+| 当前收录 | Anx Reader 1.14.0（`com.anxcye.anxReader`） |
+| 自动检查 | 每天北京时间 09:00，或每次 push |
+
+手机端：SideStore → `Sources` → `+` → 粘贴订阅地址 → 完成后在「更新」页看红点。
+
+> 推送用仓库里的**部署密钥**（`git@github.com:littlefhhh/sideload-updates.git`），
+> 因为 OAuth 令牌无权推送 `.github/workflows/` 下的文件。私钥在本机
+> `/Users/liguofang/WorkBuddy/2026-10-31-23-02-14/.tools/deploy_key`，
+> 不需要时到仓库 `Settings → Deploy keys` 删除即可。
+
 ---
 
 ## 三步上线
