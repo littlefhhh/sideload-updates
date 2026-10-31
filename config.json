@@ -11,27 +11,15 @@
   },
   "apps": [
     {
-      "repo": "Balackburn/Apollo",
-      "bundleIdentifier": "com.christianselig.apollo",
-      "name": "Apollo Reborn",
-      "developerName": "Balackburn",
-      "subtitle": "第三方 Reddit 客户端复刻",
-      "category": "social",
-      "iconURL": "https://github.com/Balackburn.png",
-      "minOSVersion": "15.0",
-      "versionRegex": "_([0-9.]+)$",
-      "assetPattern": "GLASS\\.ipa$"
-    },
-    {
-      "repo": "Provenance-Emu/Provenance",
-      "bundleIdentifier": "org.provenance-emu.provenance",
-      "name": "Provenance",
-      "developerName": "Provenance Emu",
-      "subtitle": "多平台模拟器前端",
-      "category": "entertainment",
-      "iconURL": "https://github.com/Provenance-Emu.png",
-      "minOSVersion": "15.0",
-      "assetPattern": "iOS\\.ipa$"
+      "repo": "Anxcye/anx-reader",
+      "bundleIdentifier": "com.anxcye.anxReader",
+      "name": "Anx Reader",
+      "developerName": "Anxcye",
+      "subtitle": "AI 电子书阅读器，支持多格式",
+      "category": "books",
+      "iconURL": "https://github.com/Anxcye.png",
+      "minOSVersion": "15.2",
+      "assetPattern": "ios-.*unsigned\\.ipa$"
     }
   ]
 }
