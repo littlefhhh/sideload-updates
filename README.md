@@ -9,6 +9,19 @@
 
 ## 三步上线
 
+本目录已经是一个可直接推送的 git 仓库（首次提交已完成），最省事的路径：
+
+```bash
+# 1) 先在 github.com/new 建一个空仓库（Public，不要勾选 README）
+# 2) 回到这里执行，把 <用户名>/<仓库名> 换成你自己的
+./deploy.sh <用户名>/sideload-updates
+# 3) 按脚本结尾打印的提示，在网页上开 Pages、跑一次 Actions
+```
+
+`deploy.sh` 会自动把订阅地址改成真实的 `<用户名>.github.io` 域名、重新抓取上游版本、并推送。
+
+手动版等价操作：
+
 1. **建仓库**：在 GitHub 新建一个仓库，把本目录内容推上去。
 2. **开 Pages**：仓库 `Settings → Pages → Build and deployment`，Source 选 `Deploy from a branch`，分支 `main`、目录 `/docs`，保存。
 3. **跑一次**：`Actions → 更新应用源 → Run workflow`。约 1 分钟后打开
