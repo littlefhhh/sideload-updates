@@ -1,0 +1,37 @@
+{
+  "source": {
+    "name": "My Sideload Updates",
+    "identifier": "com.liguofang.sideload.source",
+    "subtitle": "我关注的开源 App 更新源",
+    "description": "由 GitHub Releases 自动生成的 SideStore / AltStore 应用源，每天定时检查上游新版本。",
+    "iconURL": "https://github.com/liguofang.png",
+    "headerURL": "",
+    "website": "",
+    "tintColor": "#2F6FEB"
+  },
+  "apps": [
+    {
+      "repo": "Balackburn/Apollo",
+      "bundleIdentifier": "com.christianselig.apollo",
+      "name": "Apollo Reborn",
+      "developerName": "Balackburn",
+      "subtitle": "第三方 Reddit 客户端复刻",
+      "category": "social",
+      "iconURL": "https://github.com/Balackburn.png",
+      "minOSVersion": "15.0",
+      "versionRegex": "_([0-9.]+)$",
+      "assetPattern": "GLASS\\.ipa$"
+    },
+    {
+      "repo": "Provenance-Emu/Provenance",
+      "bundleIdentifier": "org.provenance-emu.provenance",
+      "name": "Provenance",
+      "developerName": "Provenance Emu",
+      "subtitle": "多平台模拟器前端",
+      "category": "entertainment",
+      "iconURL": "https://github.com/Provenance-Emu.png",
+      "minOSVersion": "15.0",
+      "assetPattern": "iOS\\.ipa$"
+    }
+  ]
+}

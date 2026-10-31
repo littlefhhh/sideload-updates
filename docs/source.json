@@ -1,0 +1,71 @@
+{
+  "name": "My Sideload Updates",
+  "identifier": "com.liguofang.sideload.source",
+  "subtitle": "我关注的开源 App 更新源",
+  "description": "由 GitHub Releases 自动生成的 SideStore / AltStore 应用源，每天定时检查上游新版本。",
+  "iconURL": "https://github.com/liguofang.png",
+  "headerURL": "",
+  "website": "",
+  "tintColor": "#2F6FEB",
+  "apps": [
+    {
+      "name": "Apollo Reborn",
+      "bundleIdentifier": "com.christianselig.apollo",
+      "developerName": "Balackburn",
+      "subtitle": "第三方 Reddit 客户端复刻",
+      "localizedDescription": "Mirrored from [Apollo-Reborn v1.15.11_4.0.1](https://github.com/Apollo-Reborn/Apollo-Reborn/releases/tag/v1.15.11_4.0.1).\n\nThese IPAs are the **official Apollo-Reborn builds**, re-hosted here so this long-standing AltStore source keeps working for existing users. Apollo-Reborn also runs its own website and sources at https://apolloreborn.app\n\n---\n\n### Performance\n\n- Send fewer Reddit requests on **API-Key-Free** accounts by not repeating link preview lookups for sites that block previews and by briefly reusing the Inbox's reply lookups, so ordinary reading reaches Reddit's rate limit later (#1 …",
+      "iconURL": "https://github.com/Balackburn.png",
+      "tintColor": "#2F6FEB",
+      "category": "social",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "4.0.1",
+          "date": "2026-10-30T04:08:54Z",
+          "localizedDescription": "Mirrored from [Apollo-Reborn v1.15.11_4.0.1](https://github.com/Apollo-Reborn/Apollo-Reborn/releases/tag/v1.15.11_4.0.1).\n\nThese IPAs are the **official Apollo-Reborn builds**, re-hosted here so this long-standing AltStore source keeps working for existing users. Apollo-Reborn also runs its own website and sources at https://apolloreborn.app\n\n---\n\n### Performance\n\n- Send fewer Reddit requests on **API-Key-Free** accounts by not repeating link preview lookups for sites that block previews and by briefly reusing the Inbox's reply lookups, so ordinary reading reaches Reddit's rate limit later (#1 …",
+          "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_4.0.1/Apollo-Reborn-4.0.1-GLASS.ipa",
+          "size": 129202414,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "version": "4.0.1",
+      "versionDate": "2026-10-30T04:08:54Z",
+      "versionDescription": "Mirrored from [Apollo-Reborn v1.15.11_4.0.1](https://github.com/Apollo-Reborn/Apollo-Reborn/releases/tag/v1.15.11_4.0.1).\n\nThese IPAs are the **official Apollo-Reborn builds**, re-hosted here so this long-standing AltStore source keeps working for existing users. Apollo-Reborn also runs its own website and sources at https://apolloreborn.app\n\n---\n\n### Performance\n\n- Send fewer Reddit requests on **API-Key-Free** accounts by not repeating link preview lookups for sites that block previews and by briefly reusing the Inbox's reply lookups, so ordinary reading reaches Reddit's rate limit later (#1 …",
+      "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_4.0.1/Apollo-Reborn-4.0.1-GLASS.ipa",
+      "size": 129202414,
+      "minOSVersion": "15.0"
+    },
+    {
+      "name": "Provenance",
+      "bundleIdentifier": "org.provenance-emu.provenance",
+      "developerName": "Provenance Emu",
+      "subtitle": "多平台模拟器前端",
+      "localizedDescription": "## What's New in 3.3.0\n\nThis is a big one. Four months of work since 3.2.1 covering iCloud sync, a completely revamped tvOS interface, video filters, and a ton of core and stability fixes.\n\n### ☁️ iCloud / CloudKit Sync\n- ROMs, save states, BIOS files, and artwork now sync across devices via iCloud\n- Real-time download progress indicators when loading cloud save states\n- Auto BIOS sync on game load when available in iCloud\n- ROM metadata syncs alongside files\n- Artwork syncs after library updates\n- CloudKit records management tab in Settings\n- iCloud upsell UI for new users with empty librarie …",
+      "iconURL": "https://github.com/Provenance-Emu.png",
+      "tintColor": "#2F6FEB",
+      "category": "entertainment",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "3.3.0",
+          "date": "2026-03-14T02:17:44Z",
+          "localizedDescription": "## What's New in 3.3.0\n\nThis is a big one. Four months of work since 3.2.1 covering iCloud sync, a completely revamped tvOS interface, video filters, and a ton of core and stability fixes.\n\n### ☁️ iCloud / CloudKit Sync\n- ROMs, save states, BIOS files, and artwork now sync across devices via iCloud\n- Real-time download progress indicators when loading cloud save states\n- Auto BIOS sync on game load when available in iCloud\n- ROM metadata syncs alongside files\n- Artwork syncs after library updates\n- CloudKit records management tab in Settings\n- iCloud upsell UI for new users with empty librarie …",
+          "downloadURL": "https://github.com/Provenance-Emu/Provenance/releases/download/3.3.0/Provenance-3.3.0-iOS.ipa",
+          "size": 1076407494,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "version": "3.3.0",
+      "versionDate": "2026-03-14T02:17:44Z",
+      "versionDescription": "## What's New in 3.3.0\n\nThis is a big one. Four months of work since 3.2.1 covering iCloud sync, a completely revamped tvOS interface, video filters, and a ton of core and stability fixes.\n\n### ☁️ iCloud / CloudKit Sync\n- ROMs, save states, BIOS files, and artwork now sync across devices via iCloud\n- Real-time download progress indicators when loading cloud save states\n- Auto BIOS sync on game load when available in iCloud\n- ROM metadata syncs alongside files\n- Artwork syncs after library updates\n- CloudKit records management tab in Settings\n- iCloud upsell UI for new users with empty librarie …",
+      "downloadURL": "https://github.com/Provenance-Emu/Provenance/releases/download/3.3.0/Provenance-3.3.0-iOS.ipa",
+      "size": 1076407494,
+      "minOSVersion": "15.0"
+    }
+  ],
+  "news": [],
+  "featuredApps": [
+    "com.christianselig.apollo",
+    "org.provenance-emu.provenance"
+  ]
+}
