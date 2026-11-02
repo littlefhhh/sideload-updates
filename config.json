@@ -20,6 +20,18 @@
       "iconURL": "https://github.com/Anxcye.png",
       "minOSVersion": "15.2",
       "assetPattern": "ios-.*unsigned\\.ipa$"
+    },
+    {
+      "repo": "bggRGjQaUbCoE/PiliPlus",
+      "bundleIdentifier": "com.example.piliplus",
+      "name": "PiliPlus",
+      "developerName": "bggRGjQaUbCoE",
+      "subtitle": "第三方 B 站客户端",
+      "category": "entertainment",
+      "iconURL": "https://github.com/bggRGjQaUbCoE.png",
+      "minOSVersion": "15.0",
+      "versionRegex": "^(\\d+\\.\\d+\\.\\d+)",
+      "assetPattern": "ios_.*\\.ipa$"
     }
   ]
 }
